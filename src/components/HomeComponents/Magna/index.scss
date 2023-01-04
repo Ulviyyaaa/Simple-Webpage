@@ -1,0 +1,53 @@
+.mainTxt {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .insideTxt {
+        margin-top: 10px;
+        max-width: 50%;
+        h4 {
+            font-size: 40px;
+            font-weight: 900;
+            &:hover {
+                color: #0085a1;
+                transition: all .3s;
+            }
+        }
+        p{
+            margin-top: 10px;
+            font-size: 20px;
+            &:hover {
+                color: #0085a1;
+                transition: all .3s;
+            }
+        }
+        span{
+            margin-top: 10px;
+            font-style: italic;
+            color: #868e96;
+        }
+    }
+}
+@media screen and (max-width: 996px){
+    .mainTxt {
+        .insideTxt {
+            max-width: 90%;
+            h4 {
+                font-size: 30px;
+            }
+            p{
+                
+                font-size: 25px;
+               
+            }
+            span{
+                margin-top: 7px;
+                
+            }
+        }
+    }
+}
